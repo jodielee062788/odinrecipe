@@ -1,0 +1,155 @@
+body {
+    font-family: monospace;
+    background-color: rgb(240, 240, 183);
+}
+
+.title {
+    background-color: #965101;
+    color: beige;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    padding: 10px;
+    margin: 50px auto;
+    max-width: 400px;
+    box-shadow: 4px 4px rgb(64, 61, 61);
+    text-shadow: 1px 1px grey;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.recipe1,
+.recipe2,
+.recipe3 {
+    background-color: beige;
+    background-color: #965101;
+    font-size: 25px;
+    color: beige;
+    font-weight: bolder;
+    text-align: center;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    padding: 5px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 4px 4px rgb(64, 61, 61);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+a:link, a:visited {
+    background-color: #965101;
+    color:beige;
+    border: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color: black; 
+    text-shadow: 1px 1px rgb(110, 109, 109); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: beige;
+    background-color: #965101;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around; 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.back {
+    margin-right: 1500px;
+}
+
+button {
+    color: white;
+    background-color: #965101;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.fmpic,
+.container {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    flex: initial;
+    flex-direction: row;
+    color: beige;
+    flex-wrap: wrap;
+}
+
+.fmpic,
+p,
+ul,
+ol {
+    background-color: #965101;
+    border: 15px double black;
+    padding: 15px;
+
+}
+
+h3 {
+    font-size: 18px;
+    box-shadow: 4px 4px rgb(64, 61, 61);
+    text-shadow: 1px 1px grey;
+    align-self: baseline;
+    background-color: rgb(247, 247, 191);
+    border: 15px double black;
+    padding: 10px;
+    color: black
+}
+
+p,
+ul,
+ol  {
+    font-size: 16px;
+    box-shadow: 4px 4px rgb(64, 61, 61);
+    text-shadow: 1px 1px grey;
+    align-self: baseline;
+}
+
+p {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    width: 350px;
+}
+
+ol {
+    width: 570px;
+    list-style-position: inside;
+}
+
+
